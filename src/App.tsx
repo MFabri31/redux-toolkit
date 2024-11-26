@@ -1,5 +1,6 @@
 import "./App.css";
 import Counter from "./components/Counter";
+import PostsList from "./components/PostsList";
 
 function App() {
   return (
@@ -7,7 +8,8 @@ function App() {
       <h1>Redux Toolkit</h1>
 
       <main>
-        <Counter />
+        {/* <Counter /> */}
+        <PostsList />
       </main>
     </>
   );
